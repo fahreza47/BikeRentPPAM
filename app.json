@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "BikeRentMobile",
+    "slug": "BikeRentMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F9E6DF"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F9E6DF"
+      },
+      "package": "com.itadoriyuuji.BikeRentMobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fbf71143-204c-4c81-8a02-dafb40768a5d"
+      }
+    }
+  }
+}
